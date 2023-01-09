@@ -47,10 +47,14 @@ const Header = () => {
 			</header>
 
 			<header className={styles.header_module}>
-				<span className={styles.header_module__title}>
-					THE GREATEST STORIES, ALL IN ONE PLACE.| SUBSCRIVE NOW
-				</span>
+				<a
+					href='https://www.preview.disneyplus.com/unavailable?cid=DTCI-Synergy-DDN-Site-Acquisition-UKSustain-GB-DisneyPlus-DisneyPlus-EN-Homepage-disney.co.uk_sustain_navpipe-NA'
+					className={styles.header_module__title}
+				>
+					THE GREATEST STORIES, ALL IN ONE PLACE. | SUBSCRIVE NOW
+				</a>
 				<img
+					className={styles.header_module__img}
 					src='https://lumiere-a.akamaihd.net/v1/images/disneyplus-white_50264639.svg?region=0,0,48,36'
 					alt='mod'
 				/>
