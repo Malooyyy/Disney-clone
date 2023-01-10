@@ -1,24 +1,33 @@
-.slider_one {
+.slider {
 	width: 100%;
-	height: 870px;
-	background-image: url('https://lumiere-a.akamaihd.net/v1/images/eu_xx_30th-anniversary_hero_r_04c26ec4.jpeg?region=0,0,3200,1372&width=2048');
+	height: 670px;
+	transition: transform 400ms, opacity 200ms;
+	transform: scale(1);
+	will-change: transform;
+	background-image: url('../public/img/disney_body.webp');
+	border: 0;
+	vertical-align: bottom;
+	opacity: 1;
+	transition: opacity 200ms;
 }
 
-.slider_two {
-	width: 100%;
-	height: 870px;
-	background-image: url('https://lumiere-a.akamaihd.net/v1/images/uk_xx_dcl-25th-anniversary_hero_r_v2_4cf7b8f1.jpeg?region=0,0,3200,1372&width=2048');
+.slider_top {
+	padding: 150px;
 }
-
-.slider_thre {
-	width: 100%;
-	height: 870px;
-	background-image: url('https://lumiere-a.akamaihd.net/v1/images/eu_ava-2_v1_hero_r_e48ad78f.jpeg?region=0,0,3200,1372');
+.slider_img {
+	margin-left: 130px;
+}
+.slider_title {
+	width: 400px;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	margin: 2px;
 }
 
 .slider_button {
 	display: flex;
-	text-align: center;
+	margin: 20px 0px 0px 80px;
 	width: 250px;
 	border-radius: 40px;
 	height: 50px;
@@ -30,8 +39,6 @@
 	color: #000000;
 }
 
-.slider_button > a {
-	margin: 20px 0px 0px 60px;
-	text-align: center;
-	color: #000000;
+.slider_button > p {
+	padding: 17px 0px 0px 65px;
 }
